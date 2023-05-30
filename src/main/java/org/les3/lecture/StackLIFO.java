@@ -12,7 +12,7 @@ public class StackLIFO {
         head = node;
     }
 
-    // Извлечение данных, ничего не принимает, так как извлекает
+    //Извлечение данных, ничего не принимает, так как извлекает
     public Integer pop(){
         Integer result = null;
         if (head != null){

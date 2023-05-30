@@ -15,7 +15,7 @@ public class FIFO {
         head = node;
     }
 
-    // Для извлечения последнего элемента из очереди
+    //Для извлечения последнего элемента из очереди
     public Integer peek(){
         Integer result = null;
         if(tail != null){
